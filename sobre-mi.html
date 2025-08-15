@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!--Estilos-->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    
+    <!--Scripts JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Rubén Nicolás Díaz</title>
+    </head>
+    <body>
+
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra Lateral (info usuario)-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!--Información general usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/FOTO_RUBEN.png" class="user-info__image" alt="Foto de oerfil del usuario" /> 
+                        <!--Aquí estaría la sombra-->
+                    </div>
+
+                    <h2 class="user-info__name">Rubén Nicolás Díaz</h2>
+                    <h3 class="user-info__job">Desarrollador Backend Java</h3>
+                </div>
+
+                <!--Menú de navegación-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mí</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Currículum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/rubennicolasdiaz/" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/rubennicolasdiaz" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!--Botón del currículum-->
+                <div class="user-info__buttons">
+                    <a href="https://github.com/rubennicolasdiaz/CV_RubenNicolasDiaz/blob/main/CV_RUBEN_NICOLAS_DIAZ.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!--Pie de Página-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Rubén Nicolás Díaz
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menú responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__about">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PÁGINA DEL SITIO WEB-->
+
+                <header class="about__header">
+                    <h1 class="about__title"> Sobre <span class="title__color">Mi</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Desarrollador backend Java en formación, con especial interés en el desarrollo de APIs REST con Spring Boot y buenas prácticas de programación. Actualmente estoy desarrollando proyectos propios que me permiten afianzar conocimientos en Java, Spring Boot, JPA/Hibernate, Spring Security, Testing, Git, entre otros.
+                            Busco una oportunidad como trainee para seguir aprendiendo en un entorno profesional y aportar desde el primer día.
+                            Abierto a movilidad o trabajo remoto. Perfil comprometido, autodidacta y con muchas ganas de crecer.
+                        </p>
+                    </article>
+
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">País</span>
+                                <span class="personal-info__value">España</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Ciudad</span>
+                                <span class="personal-info__value">Almería (Andalucía)</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Correo</span>
+                                <span class="personal-info__value">ruben.nicolasdiaz@yahoo.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Teléfono</span>
+                                <span class="personal-info__value">634 808 152</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">
+                            Lo que <span class="title__color">hago</span>
+                        </h2>
+                    </header>
+
+                    <div class="services__container">
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-computer"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Desarrollo backend</h3>
+                                <p class="service__description">
+                                    Desarrollo de API Rest, Aplicación con microservicios, Docker y Kubernetes, monolitos, etc. Framework Spring y Spring Boot. He programado con Spring Data JPA (Hibernate), Spring MVC, Spring Cloud. También tengo formación en Jakarta EE y todo su ecosistema, además de proyectos antiguos (Struts).
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Programación</h3>
+                                <p class="service__description">
+                                    Programación en Java, aparte de backend también he programado aplicaciones de escritorio, JSP y otras aplicaciones Java. También he programado apps nativas de Android en Kotlin y Java, API Rest en C# con .NET 9. En menor medida he realizado pequeños programas en Python, JavaScript y algunas páginas web con HTML 5, CSS 3 y JavaScript.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-terminal"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Administración de sistemas</h3>
+                                <p class="service__description">
+                                    Además de programación, también estudié administración de sistemas informáticos en red y trabajé un año como personal externo de la Junta de Andalucía en las delegaciones de cultura y turismo en Almería. Mis funciones principales como técnico eran la atención a los usuarios mediante sistemas de ticketing, instalación y corrección de problemas de hardware y software, sustitución de equipos, etc. 
+                                </p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </section>
+            </main>
+    </div>
+    
+</body>
+</html>

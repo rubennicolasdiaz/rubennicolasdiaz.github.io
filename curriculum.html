@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!--Estilos-->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    
+    <!--Scripts JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Rubén Nicolás Díaz</title>
+</head>
+<body>
+
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra Lateral (info usuario)-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!--Información general usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/FOTO_RUBEN.png" class="user-info__image" alt="Foto de oerfil del usuario" /> 
+                        <!--Aquí estaría la sombra-->
+                    </div>
+
+                    <h2 class="user-info__name">Rubén Nicolás Díaz</h2>
+                    <h3 class="user-info__job">Desarrollador Backend Java</h3>
+                </div>
+
+                <!--Menú de navegación-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mí</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Currículum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/rubennicolasdiaz/" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/rubennicolasdiaz" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!--Botón del currículum-->
+                <div class="user-info__buttons">
+                    <a href="https://github.com/rubennicolasdiaz/CV_RubenNicolasDiaz/blob/main/CV_RUBEN_NICOLAS_DIAZ.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!--Pie de Página-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Rubén Nicolás Díaz
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menú responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__resume">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PÁGINA DEL SITIO WEB-->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Currículum</h1>
+                </header>
+
+                <div class="resume__container">
+
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia Profesional</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">Febrero 2023 - Febrero 2024</h4>
+                                    <span class="timeline__company">SOLTEL GROUP (Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Administración Sistemas - Técnico Microinformática</h3>
+                                    <p class="timeline__text">
+                                        Atención a usuarios internos y externos, administración de equipos informáticos y gestión de problemas de hardware y software. Trabajé como personal externo en delegación de cultura y turismo de la Junta de Andalucía en Almería. 
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">Agosto 2015 - Diciembre 2021</h4>
+                                    <span class="timeline__company">INELCOM S.A. (Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Atención Cliente / Administrativo - Técnico de provisión de Movistar Fusión Empresas</h3>
+                                    <p class="timeline__text">
+                                        Teleoperador. Gestión de proyectos técnicos. Tramitación de pedidos en Sistemas de Movistar y atención telefónica. Resolución incidencias BMC Remedy.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Prácticas en Empresas</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">Octubre 2024 - Enero 2025</h4>
+                                    <span class="timeline__company">RUANO INFORMÁTICA S.L.(Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">FP Superior Desarrollo Aplicaciones Multiplataforma</h3>
+                                    <p class="timeline__text">
+                                        Desarrollo apps nativas Android en lenguaje Kotlin y Java. Desarrollo de API Rest con .NET en lenguaje C#.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">Octubre 2012 - Enero 2013</h4>
+                                    <span class="timeline__company">GRUPO HISPATEC S.A. (Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">FP Superior Administración de Sistemas Informáticos en Red</h3>
+                                    <p class="timeline__text">
+                                        Comprobación de sistemas TIC en clientes, reparación de equipos informáticos.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">Abril 2010 - Junio 2010</h4>
+                                    <span class="timeline__company">MONTAJES ELÉCTRICOS MÁRQUEZ & GARCÍA S.L. (Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">FP Superior Instalaciones Electrotécnicas</h3>
+                                    <p class="timeline__text">
+                                        Instalaciones eléctricas.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formación Académica</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2022-2025</h4>
+                                    <span class="timeline__company">I.E.S. Al-Ándalus (Almería)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Técnico Superior Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2010-2013</h4>
+                                    <span class="timeline__company">Técnico Superior Administración de Sistemas Informáticos en Red (ASIR)</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">I.E.S. Al-Ándalus (Almería)</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2008-2010</h4>
+                                    <span class="timeline__company">Técnico Superior Instalaciones Electrotécnicas</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">I.E.S. Alhamilla (Almería)</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2006-2008</h4>
+                                    <span class="timeline__company">Bachillerato Ciencias Sociales</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">I.E.S. Alhamilla (Almería)</h3>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Idiomas</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Español nativo</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Inglés: Advanced reading, intermediate conversation, intermediate listening</h3>
+                                </div>
+                            </article>
+                        </div>                        
+                    </section>
+
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">programación</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">Programación Backend</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Bases de Datos</h4>
+                                <span class="skills__number">70%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">APIs y Servicios Web</h4>
+                                <span class="skills__number">60%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Control de Versiones</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p4"></div>
+                            </div>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">backend</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">Spring Boot</h4>
+                                <span class="skills__number">97%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p5"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Spring Security</h4>
+                                <span class="skills__number">85%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p6"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Spring Data JPA</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p7"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Spring MVC</h4>
+                                <span class="skills__number">92%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p8"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Spring Cloud</h4>
+                                <span class="skills__number">81%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p9"></div>
+                            </div>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Áreas de <span class="subtitle__color">conocimiento</span></h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">PostgreSQL</li>
+                                <li class="knowledges__option">Postman</li>
+                                <li class="knowledges__option">JPA</li>
+                                <li class="knowledges__option">Hibernate</li>
+                                <li class="knowledges__option">JUnit</li>
+                                <li class="knowledges__option">Mockito</li>
+                                <li class="knowledges__option">Jakarta EE</li>
+                                <li class="knowledges__option">Kubernetes</li>
+                                <li class="knowledges__option">JSP</li>
+                                <li class="knowledges__option">Instalaciones Eléctricas</li>
+                                <li class="knowledges__option">Android</li>
+                                <li class="knowledges__option">MySQL</li>
+                                <li class="knowledges__option">Linux Virtual Server</li>
+                                <li class="knowledges__option">Microsoft Azure</li>
+                                <li class="knowledges__option">Python</li>
+                                <li class="knowledges__option">Gestión de Redes</li>
+                                <li class="knowledges__option">Linux</li>
+                                <li class="knowledges__option">Microsoft Excel</li>
+                                <li class="knowledges__option">JavaScript</li>
+                                <li class="knowledges__option">Android Jetpack</li>
+                                <li class="knowledges__option">JIRA</li>
+                                <li class="knowledges__option">Programación</li>
+                                <li class="knowledges__option">XML</li>
+                                <li class="knowledges__option">Microservicios</li>
+                                <li class="knowledges__option">Spring Boot</li>
+                                <li class="knowledges__option">Git</li>
+                                <li class="knowledges__option">MVC</li>
+                                <li class="knowledges__option">PL/SQL</li>
+                                <li class="knowledges__option">Base de datos SQL</li>
+                                <li class="knowledges__option">Docker</li>
+                                <li class="knowledges__option">REST</li>
+                                <li class="knowledges__option">SOAP</li>
+                                <li class="knowledges__option">CSS</li>
+                                <li class="knowledges__option">Modelo de datos</li>
+                                <li class="knowledges__option">Servlet</li>
+                                <li class="knowledges__option">Servidores de Aplicaciones</li>
+                                <li class="knowledges__option">HTML</li>
+                                <li class="knowledges__option">SGBD</li>
+                                <li class="knowledges__option">Java</li>
+                                <li class="knowledges__option">Struts</li>
+                                <li class="knowledges__option">Spring Batch</li>
+                                <li class="knowledges__option">Tomcat</li>
+                                <li class="knowledges__option">Windows Server</li>
+                                <li class="knowledges__option">Gestión de Usuarios</li>
+                                <li class="knowledges__option">Soporte técnico</li>
+                                <li class="knowledges__option">Instalación software</li>
+                                <li class="knowledges__option">GitHub</li>
+                                <li class="knowledges__option">Kotlin</li>
+                                <li class="knowledges__option">Corrutinas Kotlin</li>
+                                <li class="knowledges__option">Spring</li>
+                                <li class="knowledges__option">.NET</li>
+                                <li class="knowledges__option">C#</li>
+                                <li class="knowledges__option">ASP.NET Web API</li>
+                                <li class="knowledges__option">Gestión de configuración</li>
+                                <li class="knowledges__option">Resolución problemas software</li>
+                                <li class="knowledges__option">BMC Remedy</li>
+                                <li class="knowledges__option">Gestión de cuentas</li>
+                                <li class="knowledges__option">Satisfacción cliente</li>
+                                <li class="knowledges__option">Equipos informáticos</li>
+                                <li class="knowledges__option">Mejora de procesos</li>
+                                <li class="knowledges__option">Gestión de atención al cliente</li>
+                                <li class="knowledges__option">Centros de contacto</li>
+                                <li class="knowledges__option">Hardware</li>
+                            </ul>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Otros Datos</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Carnet de conducir B</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Vehículo propio</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Disponibilidad horaria</h3>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Movilidad por el territorio nacional</h3>
+                                </div>
+                            </article>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="resume__certificates-1">
+                    <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Cisco CCNA Fundamentos de Networking para Redes IP</h4>
+                                <span class="certificate__id">ID Verificación: UC-2189fe98-1c1b-4ba8-ac64-8ab09e9ddaf1</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Jetpack Compose: Curso definitivo desde 0</h4>
+                                <span class="certificate__id">ID Verificación: UC-9aae08bb-0136-4705-9936-f1b590c4afe8</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">AZ-900 Microsoft Azure Fundamentals en Español</h4>
+                                <span class="certificate__id">ID Verificación: UC-7b9cbfe8-a4a8-4847-abbb-810d5f9fc17a</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Curso completo de Linux: Manejo de comandos y Shell Script</h4>
+                                <span class="certificate__id">ID Verificación: UC-828db130-6331-4eb5-b955-18f0d1654ce5</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Desarrollo Web Completo con HTML5, CSS3, JS, Ajax, PHP y MySQL</h4>
+                                <span class="certificate__id">ID Verificación: UC-d5cddc46-7f79-43a9-ba0f-c5afcc6c99c9</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Excel Total</h4>
+                                <span class="certificate__id">ID Verificación: UC-88c54560-5614-4663-8ab0-1300cb202800</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">JavaScript Total</h4>
+                                <span class="certificate__id">ID Verificación: UC-f47f4696-f8ae-49cd-a248-292fac217c51</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">SQL - Curso completo de bases de datos - De 0 a avanzado</h4>
+                                <span class="certificate__id">ID Verificación: UC-4d84fba7-84ee-4b54-8080-d5309d8574b9</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Python Total</h4>
+                                <span class="certificate__id">ID Verificación: UC-52801f88-e88c-43d7-8a78-ad788514fa6a</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Web API con .NET CORE y Swagger + Dapper + SQL Server</h4>
+                                <span class="certificate__id">ID Verificación: UC-a963c7f9-1116-4bc3-8089-5158739f6a9f</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image-udemy" alt="Imagen Udemy" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Administrador de Sistemas Junior en Windows Server y Linux</h4>
+                                <span class="certificate__id">ID Verificación: UC-4674314f-c77c-4d9e-bb63-d3617ba9bbc0</span>
+                                <span class="certificate__date">Julio 2025</span>
+                            </div>
+                        </article>
+
+                    </section>
+                </div>
+
+                <div class="resume__certificates-2">
+                    <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Otros cursos</h2>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-2.jpg" class="certificate__image-eurocollege" alt="Imagen Eurocollege" />
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Certificado de Inglés Aeronáutico</h4>
+                                <span class="certificate__id">Eurocollege Oxford English Institute (Almería)</span>
+                                <span class="certificate__date">Octubre 2014</span>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>
