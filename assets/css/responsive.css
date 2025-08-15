@@ -22,6 +22,11 @@
         top: 30%;
         right: 33%;
     }
+
+    .gallery__container-image{
+        max-height: 150px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 1320px) {
@@ -278,6 +283,10 @@
 }
 
 @media (max-width: 480px) {
+
+    .certificates__container:last-child{
+        margin-bottom: 6rem;
+    }
     .page__name{
         font-size: 4.8rem;
         line-height: 5.6rem;

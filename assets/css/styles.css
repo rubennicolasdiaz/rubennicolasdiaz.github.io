@@ -959,7 +959,7 @@ body{
 }
 
 .gallery__container-image{
-    max-height: 180px;
+    max-height: 150px;
     overflow: hidden;
 }
 
