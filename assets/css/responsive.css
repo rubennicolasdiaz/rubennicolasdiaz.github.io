@@ -241,6 +241,10 @@
 
 @media (max-width: 585px) {
 
+    .content__resume{
+        padding: 3rem;
+        padding-right: 0;
+    }
     .about__personal-info{
         flex-direction: column;
     }
@@ -267,6 +271,7 @@
         gap: 2rem;
     }
 
+
     .resume__container{
         flex-direction: column;
     }
@@ -279,6 +284,25 @@
 
     .contact__container{
         flex-direction: column;
+    }
+
+    .timeline__header {
+    flex: 0 0 30%; 
+    max-width: 30%;
+    text-align: right;
+    padding-right: 1.5rem;
+    word-break: normal; 
+}
+    .timeline__description {
+        flex: 1;
+        min-width: 0; 
+    }
+
+    .gallery__icon-code,
+    .gallery__icon-github,
+    .gallery__icon-youtube,
+    .gallery__category{
+        opacity: 1;
     }
 }
 
@@ -315,5 +339,11 @@
         flex-basis: 100%;
         max-width: 100%;
         max-height: 100%;
+    }
+    
+    .form__button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 3rem;
     }
 }
