@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         // Petición POST al backend
-        fetch("https://8bd29146070c.ngrok-free.app/send-email", {
+        fetch("https://spring-boot-email.onrender.com/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
