@@ -13,19 +13,101 @@
         width: 85%;
     }
 
-    .gallery__icon-github{
-        top: 30%;
-        right: 60%;
-    }
+    .portfolio__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
 
-    .gallery__icon-youtube{
-        top: 30%;
-        right: 33%;
-    }
+.gallery__item {
+    position: relative;
+    overflow: hidden;
+}
 
-    .gallery__container-image{
-        max-height: 150px;
-        overflow: hidden;
+.gallery__container-image {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 300ms ease-in-out;
+}
+.gallery__item:hover .gallery__image{
+    transform: scale(1.3);
+}
+
+.gallery__title{
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery__icon-code{
+    opacity: 0;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: var(--color-principal);
+    color: var(--color-secondary);
+    transition: all 450ms ease-in-out;
+}
+
+.gallery__icon-github{
+    opacity: 0;
+    position: absolute;
+    top: calc(30%);
+    right: calc(60%);
+    width: 3rem;
+    height: 3rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    color: var(--color-principal);
+    transition: all 450ms ease-in-out;
+}
+
+.gallery__icon-youtube{
+    opacity: 0;
+    position: absolute;
+    top: calc(30%);
+    right: calc(33%);
+    width: 3rem;
+    height: 3rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    color: var(--color-principal);
+    transition: all 450ms ease-in-out;
+}
+
+.gallery__category{
+    opacity: 0;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.2rem 0.7rem;
+    font-size: 1.1rem;
+    background-color: var(--color-principal);
+    color: var(--color-text);
+    transition: all 450ms ease-in-out;
+}
+
+    .gallery__item:hover .gallery__icon-code,
+    .gallery__item:hover .gallery__icon-github,
+    .gallery__item:hover .gallery__icon-youtube,
+    .gallery__item:hover .gallery__category{
+        opacity: 1;
     }
 }
 
@@ -319,10 +401,6 @@
 
     .certificate__logo{
         width: 100%;
-    }
-
-    .gallery__item{
-        flex-basis: 100%;
     }
 
     .form__container{
