@@ -193,7 +193,9 @@
                                     </div>
 
                                     <div class="form__group">
-                                        <input type="email" class="form__input" name="email" required placeholder="Email" />
+                                        <input type="email" class="form__input" name="email" required placeholder="Email" 
+                                        pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+                                        title="Por favor introduce un email válido, por ejemplo usuario@dominio.com"/>
                                         <label for="email" class="form__label">Email</label>
                                     </div>
 
