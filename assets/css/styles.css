@@ -832,8 +832,8 @@ body{
 }
 
 .skills__percentage--p1{ width: 90%; }
-.skills__percentage--p2{ width: 70%; }
-.skills__percentage--p3{ width: 60%; }
+.skills__percentage--p2{ width: 80%; }
+.skills__percentage--p3{ width: 80%; }
 .skills__percentage--p4{ width: 80%; }
 .skills__percentage--p5{ width: 97%; }
 .skills__percentage--p6{ width: 85%; }
@@ -845,6 +845,15 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.knowledges__category{
+    padding: 0.4rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(8, 178, 8);
+    border-radius: 0.3rem;
+    color: var(--color-principal);
 }
 
 .knowledges__option{
