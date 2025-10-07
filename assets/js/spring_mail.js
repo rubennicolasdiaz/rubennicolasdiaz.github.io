@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         // Petición POST al backend
-        fetch("https://spring-boot-email.onrender.com/send-email", {
+        fetch("https://spring-boot-email-rubennicolas.fly.dev/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
