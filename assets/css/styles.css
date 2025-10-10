@@ -136,12 +136,16 @@ body{
     margin-bottom: 3.6rem;
 }
 
-.links__social{
+.links__social {
     margin-top: 2rem;
-    text-align: center;
-
     display: flex;
-    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 4rem; 
+}
+
+.social__icon{
+    font-size: 4rem;
 }
 
 .social__option{
@@ -782,8 +786,16 @@ body{
 }
 
 .resume__skills{
-    width: 100%;
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 20px;
+}
+
+.technology__image{
+    width: 40px;
+    height: 40px;
 }
 
 .resume__certificates-1{
@@ -797,49 +809,6 @@ body{
 .resume__knowledges{
     margin-bottom: 4rem;
 }
-
-.skills__title{
-    display: flex;
-    justify-content: space-between;    
-}
-
-.skills__text{
-    font-size: 1.3rem;
-    line-height: 1.4rem;
-    margin-bottom: 0.4rem;
-}
-
-.skills__number{
-    font-size: 1.1rem;
-    line-height: 1.4rem;
-    margin-bottom: 0.4rem;
-    color: var(--color-subtitles);
-}
-
-.skills__progressbar{
-    height: 1rem;
-    border: 1px solid var(--color-secondary);
-    border-radius: 1rem;
-    background-color: var(--color-principal);
-    margin-bottom: 1.5rem;
-}
-
-.skills__percentage{
-    height: 0.8rem;
-    background-color: var(--color-secondary);
-    border: 0.2rem solid var(--color-principal);
-    border-radius: 1rem; 
-}
-
-.skills__percentage--p1{ width: 90%; }
-.skills__percentage--p2{ width: 80%; }
-.skills__percentage--p3{ width: 80%; }
-.skills__percentage--p4{ width: 80%; }
-.skills__percentage--p5{ width: 97%; }
-.skills__percentage--p6{ width: 85%; }
-.skills__percentage--p7{ width: 80%; }
-.skills__percentage--p8{ width: 92%; }
-.skills__percentage--p9{ width: 81%; }
 
 .knowledges__list{
     display: flex;
