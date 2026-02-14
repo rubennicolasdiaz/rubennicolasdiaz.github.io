@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"ACCESIBILIDAD Y SEGURIDAD","children":[{"content":"Herramientas de Apoyo","children":[{"content":"Android","children":[{"content":"Lupa","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"Shine Plus","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"TalkBack","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"Voice Assistant","children":[],"payload":{"tag":"li","lines":"8,10"}}],"payload":{"tag":"h3","lines":"4,5"}},{"content":"iOS","children":[{"content":"Siri","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"VoiceOver","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Zoom","children":[],"payload":{"tag":"li","lines":"13,15"}}],"payload":{"tag":"h3","lines":"10,11"}},{"content":"Windows","children":[{"content":"Cortana","children":[],"payload":{"tag":"li","lines":"16,18"}}],"payload":{"tag":"h3","lines":"15,16"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Herramientas de Accesibilidad","children":[{"content":"Android","children":[{"content":"A11y Ally","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Accessibility Scanner","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Accessibility Test Framework","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Espresso","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Lint","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Node Tree Debugging","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Remote Debugging WebViews","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"UI Automator Viewer","children":[],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"h3","lines":"20,21"}},{"content":"iOS","children":[{"content":"A11yUITests","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Accessibility Inspector","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"GSCX","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"GTXiLib","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Accessibility Snapshot","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Accessibility Verifier","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"UBKAccessibilityKit","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Xiblint","children":[],"payload":{"tag":"li","lines":"38,39"}}],"payload":{"tag":"h3","lines":"30,31"}}],"payload":{"tag":"h2","lines":"18,19"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>

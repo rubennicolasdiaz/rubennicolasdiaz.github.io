@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Comandos dotnet (.NET)","children":[{"content":"Gesti&#xf3;n de Paquetes","children":[{"content":"\n<p data-lines=\"4,5\">Instalar &#xfa;ltima versi&#xf3;n</p>","children":[{"content":"dotnet add package <paquete></paquete>","children":[],"payload":{"tag":"li","lines":"5,7"}}],"payload":{"tag":"li","lines":"4,7"}},{"content":"\n<p data-lines=\"7,8\">Listar referencias y versiones</p>","children":[{"content":"dotnet list package","children":[],"payload":{"tag":"li","lines":"8,10"}}],"payload":{"tag":"li","lines":"7,10"}},{"content":"\n<p data-lines=\"10,11\">Restaurar paquetes</p>","children":[{"content":"dotnet restore","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"li","lines":"10,13"}},{"content":"\n<p data-lines=\"13,14\">Empaquetar c&#xf3;digo (NuGet)</p>","children":[{"content":"dotnet pack","children":[],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"13,16"}},{"content":"\n<p data-lines=\"16,17\">Publicar paquete en servidor</p>","children":[{"content":"dotnet nuget push","children":[],"payload":{"tag":"li","lines":"17,19"}}],"payload":{"tag":"li","lines":"16,19"}},{"content":"\n<p data-lines=\"19,20\">Eliminar paquete del servidor</p>","children":[{"content":"dotnet nuget delete","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"19,22"}},{"content":"\n<p data-lines=\"22,23\">Verificar paquete firmado</p>","children":[{"content":"dotnet nuget verify","children":[],"payload":{"tag":"li","lines":"23,25"}}],"payload":{"tag":"li","lines":"22,25"}},{"content":"\n<p data-lines=\"25,26\">Crear archivo de configuraci&#xf3;n NuGet</p>","children":[{"content":"dotnet nuget nugetconfig","children":[],"payload":{"tag":"li","lines":"26,28"}}],"payload":{"tag":"li","lines":"25,28"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Compilaci&#xf3;n y Ejecuci&#xf3;n","children":[{"content":"\n<p data-lines=\"30,31\">Compilar aplicaci&#xf3;n</p>","children":[{"content":"dotnet build","children":[],"payload":{"tag":"li","lines":"31,33"}}],"payload":{"tag":"li","lines":"30,33"}},{"content":"\n<p data-lines=\"33,34\">Ejecutar aplicaci&#xf3;n</p>","children":[{"content":"dotnet exec","children":[],"payload":{"tag":"li","lines":"34,35"}}],"payload":{"tag":"li","lines":"33,35"}}],"payload":{"tag":"h2","lines":"28,29"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>

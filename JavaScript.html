@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"JavaScript","children":[{"content":"Testing","children":[{"content":"QUnit","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"Unit.js","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"Jest","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"Jasmine","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Mocha","children":[],"payload":{"tag":"li","lines":"7,9"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Interacci&#xf3;n con el DOM","children":[{"content":"jQuery","children":[],"payload":{"tag":"li","lines":"10,12"}}],"payload":{"tag":"h2","lines":"9,10"}},{"content":"Manejo de Estado","children":[{"content":"Redux","children":[],"payload":{"tag":"li","lines":"13,15"}}],"payload":{"tag":"h2","lines":"12,13"}},{"content":"Transpilador","children":[{"content":"Babel","children":[],"payload":{"tag":"li","lines":"16,18"}}],"payload":{"tag":"h2","lines":"15,16"}},{"content":"Frameworks","children":[{"content":"Cliente (Front-End)","children":[{"content":"Angular","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Vue.js","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"React","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"EmberJS","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Polymer","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Backbone.js","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Closure","children":[],"payload":{"tag":"li","lines":"27,29"}}],"payload":{"tag":"h3","lines":"20,21"}},{"content":"Servidor (Back-End)","children":[{"content":"Next.js","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"ExpressJS","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Node.js","children":[],"payload":{"tag":"li","lines":"32,34"}}],"payload":{"tag":"h3","lines":"29,30"}},{"content":"Full Stack","children":[{"content":"Meteor","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"h3","lines":"34,35"}}],"payload":{"tag":"h2","lines":"18,19"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
